@@ -1,0 +1,45 @@
+{
+  "name": "hapijs-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for APIs based on hapijs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./node_modules/.bin/nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/91springboard/hapijs-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "hapijs",
+    "rest",
+    "api",
+    "javascript",
+    "es6",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/91springboard/hapijs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/91springboard/hapijs-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "good": "^7.1.0",
+    "good-console": "^6.4.0",
+    "hapi": "^16.1.0",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.1.0",
+    "joi": "^10.2.2",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
